@@ -1,5 +1,22 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	link(rel='stylesheet', href='/stylesheets/indexStyle.css')
+
+	div#mainActivity
+		img#mainPicture(src = "http://www.reatechnologies.com/Images/board.jpg")
+		div#mainDescriptionBox
+			span#mainDescriptionTitle 주활동 타이틀
+			br
+			br
+			span#mainDescription
+				|주활동을 쓰는 곳 안녕하세요 주활동을 쓰는 곳 안녕하세요 주활동을 쓰는 곳 
+				|안녕하세요 간략한소개 주활동을 쓰는 곳 안녕하세요 간략한소개 주활동을 쓰는 곳     
+			span.readMore
+				a(href ="https://www.google.ca")
+					더보기
+		div#mainBackground
+			div#circleDiv
+				div#circle
+				div#circle
+				div#circle

@@ -1,7 +1,22 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+	head
+		title= title
+	link(rel='stylesheet', href='/stylesheets/style.css')
+	
+	body(background="http://i.imgur.com/CGZtxdp.png")
+		div#header
+			img#logo(src = "http://i.imgur.com/Ih84GPB.png")
+			span#companyName 대성전자
+			span#slogan Welcome Message!!
+		div#menuBar
+			a(href ="https://www.google.ca")
+				div.menuItem
+					회사 소개
+			a(href ="https://www.google.ca")
+				div.menuItem
+					제품  소개
+			a(href ="https://www.google.ca")
+				div.menuItem
+					연락처	
+		block content
